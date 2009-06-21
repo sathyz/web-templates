@@ -1,0 +1,144 @@
+#container {
+	margin:5px auto 0;
+	position:relative;
+	min-height:100%;
+}
+
+#header{
+	background:#C5DEF0 none repeat scroll 0 0;
+	height:144px;
+}
+
+#title {
+	#padding:6px 18px;
+	margin:0 auto;
+}
+
+#title h1 {
+	background:transparent url(images/logo.jpg) no-repeat scroll left top;
+	color:#FFFFFF;
+	font-size:4em;
+	font-weight:normal;
+	letter-spacing:-2px;
+	margin:0;
+	padding:40px 0 0 170px;
+	text-transform:lowercase;
+}
+
+#title h1 a{
+	color:#FFFFFF;
+}
+
+.clearer {
+	clear:both;
+}
+
+#menu {
+	float:right;
+	padding:13px 0;
+	padding-right:12px;
+}
+
+#doc {
+	background:#FFFFFF url(images/img02.jpg) repeat-x scroll left bottom;
+}
+
+#left_pane{
+	float:left;
+}
+
+#right_pane{
+	width:75%;
+	padding-right:10px;
+	float:right;
+}
+
+.post{
+	color:#444444;
+	margin-bottom:7px;
+}
+
+.post_title{
+	background:#E8E8E8;
+	padding:6px 12px 5px;
+}
+
+.post_title h1 {
+	font-family:Verdana,sans-serif;
+	font-size:0.9em;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:normal;
+}
+
+.post_content{
+	background:#F5F5F5;
+	padding:10px 10px 1px;
+}
+
+p, ol, ul {
+	line-height:1.67em;
+}
+
+body {
+	background:#FFFFF url(images/img01.jpg) repeat-x scroll 0 0;
+	color:#333333;
+	font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size:13px;
+	height:100%;
+}
+
+a:hover {
+	color:#003366;
+}
+
+a {
+	color:#0066AA;
+}
+
+h1, h2, h3 {
+	font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-weight:normal;
+	letter-spacing:-1px;
+}
+
+html{
+	height:100%;
+}
+
+
+
+#footer{
+	height:5%;
+	vertical-align:middle;
+	background:#C5DEF0 none repeat scroll 0 0;
+	color:#FAFCFF;
+}
+
+#footer a {
+	border-bottom:1px dotted #666666;
+	color:#666666;
+	text-decoration:none;
+}
+
+#copyright {
+	float:left;
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	margin:0;
+	padding:5px 0 0 10px;
+	text-align:center;
+}
+
+#footer_links{
+	float:right;
+}
+
+* {
+	margin:0;
+	padding:0;	
+}
+
